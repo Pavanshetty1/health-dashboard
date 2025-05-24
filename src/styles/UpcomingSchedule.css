@@ -1,0 +1,31 @@
+/* styles/UpcomingSchedule.css */
+.upcoming-schedule {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  height: 330px;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.day-section {
+  margin-bottom: 1.5rem;
+}
+
+.day-label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  color: #3a80f9;
+}
+
+.card-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

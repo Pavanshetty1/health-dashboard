@@ -1,0 +1,26 @@
+.anatomy-section {
+  position: relative;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.body-image {
+  width: 100%;
+}
+
+.health-labels {
+  margin-top: 1rem;
+}
+
+.health-indicator {
+  margin: 0.3rem 0;
+  font-weight: bold;
+}
+
+.health-indicator.green { color: green; }
+.health-indicator.red { color: red; }
+.health-indicator.yellow { color: goldenrod; }
+.health-indicator.blue { color: blue; }

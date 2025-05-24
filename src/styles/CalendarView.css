@@ -1,0 +1,46 @@
+/* styles/CalendarView.css */
+.calendar-container {
+    
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+  height: 10px;
+}
+
+.calendar-header {
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.calendar-date {
+  background-color: #f4f9fd;
+  text-align: center;
+  padding: 0.75rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.calendar-date.active {
+  background-color: #3a80f9;
+  color: white;
+}
+
+.calendar-appointment {
+  font-size: 0.75rem;
+  margin-top: 4px;
+  background: #eef1ff;
+  color: #3a80f9;
+  border-radius: 6px;
+  padding: 2px 4px;
+  display: inline-block;
+}

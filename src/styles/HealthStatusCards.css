@@ -1,0 +1,44 @@
+/* styles/HealthStatusCards.css */
+.health-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.health-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #999;
+  margin: 0.5rem 0;
+}
+
+.status-bar {
+  height: 6px;
+  border-radius: 4px;
+}
+
+.status-red {
+  background-color: #f06548;
+}
+
+.status-green {
+  background-color: #7dd87d;
+}
+
+.status-orange {
+  background-color: #f0864d;
+}

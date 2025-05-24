@@ -1,0 +1,22 @@
+/* styles/DashboardMainContent.css */
+.dashboard-main {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  gap: 2rem;
+}
+
+.top-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-main {
+    grid-template-columns: 1fr;
+  }
+
+  .top-section {
+    flex-direction: column;
+  }
+}

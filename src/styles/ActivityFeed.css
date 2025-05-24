@@ -1,0 +1,27 @@
+/* styles/ActivityFeed.css */
+.activity-feed {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  height: 330px;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.bar-chart {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-end;
+  height: 120px;
+}
+
+.bar {
+  background-color: #3a80f9;
+  width: 12px;
+  border-radius: 6px;
+}
