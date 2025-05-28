@@ -1,4 +1,4 @@
-// src/components/DashboardMainContent/AnatomySection.jsx
+
 import React from 'react';
 import { healthIndicators } from '../../data/healthData';
 import '../../styles/AnatomySection.css';
