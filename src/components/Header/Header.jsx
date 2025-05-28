@@ -13,7 +13,7 @@ const Header = () => {
 
       <div className="header-right">
         <div className="user-profile">
-          <img src="/src/assets/images/avatar.jpg" alt="User" className="avatar" />
+          <img src="/avatar.jpg" alt="User" className="avatar" />
           <span className="username">Dr. Smith</span>
         </div>
         <button className="add-btn">+</button>
