@@ -6,7 +6,7 @@ import '../../styles/AnatomySection.css';
 const AnatomySection = () => {
   return (
     <div className="anatomy-section">
-      <img src="/src/assets/images/humanbody.png" alt="Human Body" className="body-image" />
+      <img src="/humanbody.png" alt="Human Body" className="body-image" />
     
     </div>
   );
